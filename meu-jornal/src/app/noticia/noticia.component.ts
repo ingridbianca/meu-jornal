@@ -17,6 +17,7 @@ export class NoticiaComponent implements OnInit {
   }
 
   public esconderNoticia(){
-    this.mostrarNoticia = false;
+    this.mostrarNoticia = !this.mostrarNoticia;
   }
+
 }
